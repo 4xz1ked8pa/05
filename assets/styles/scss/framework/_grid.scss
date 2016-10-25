@@ -1,0 +1,18 @@
+html {
+  width:100%;
+  height:100%;
+  body {
+    width:100%;
+    height:100%;
+    background: rgba(black,.03);
+    ::selection {
+      background: rgba(blue,.04); /* WebKit/Blink Browsers */
+    }
+    ::-moz-selection {
+      background: rgba(blue,.04); /* Gecko Browsers */
+    }
+  }
+  &, * {
+    box-sizing: border-box;
+  }
+}
