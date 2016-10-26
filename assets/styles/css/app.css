@@ -126,6 +126,9 @@ html {
       #navigation .links a.active {
         color: black;
         font-weight: 700; }
+  #navigation .hire {
+    display: flex;
+    align-self: center; }
 
 #work {
   display: flex;
