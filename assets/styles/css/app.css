@@ -82,13 +82,13 @@ html {
   display: flex;
   justify-content: space-between;
   background: rgba(255, 255, 255, 0.8);
-  padding: 38px 60px 34px 60px;
+  padding: 36px 60px 34px 60px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.015); }
   #navigation .identity {
     display: flex;
     flex-direction: row; }
     #navigation .identity .picture {
-      width: 50px;
+      width: 43px;
       margin-right: 10px;
       border-radius: 2px; }
       #navigation .identity .picture img {
@@ -101,14 +101,14 @@ html {
       flex-direction: column; }
       #navigation .identity .details .name {
         color: #1f1610;
-        font-size: 22px;
+        font-size: 17px;
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
         margin-top: -2px;
         margin-bottom: 7.5px; }
       #navigation .identity .details .role {
         color: rgba(0, 0, 0, 0.8);
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 500;
         font-family: 'Open Sans', sans-serif; }
   #navigation .links {
@@ -116,7 +116,7 @@ html {
     align-items: center; }
     #navigation .links a {
       color: rgba(0, 0, 0, 0.9);
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 600;
       font-family: 'Open Sans', sans-serif;
       text-decoration: none;

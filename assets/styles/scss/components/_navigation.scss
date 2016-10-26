@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   background: rgba(white,.8);
-  padding:38px 60px 34px 60px;
+  padding:36px 60px 34px 60px;
   box-shadow: 0 1px 4px rgba(black,.015);
   .identity {
     display: flex;
     flex-direction: row;
     .picture {
-      width:50px;
+      width:43px;
       margin-right:10px;
       border-radius: 2px;
       img {
@@ -23,7 +23,7 @@
       flex-direction: column;
       .name {
         color:rgba(#1F1610,1);
-        font-size:22px;
+        font-size:17px;
         font-weight:600;
         font-family: 'Open Sans', sans-serif;
         margin-top:-2px;
@@ -31,7 +31,7 @@
       }
       .role {
         color:rgba(black,.8);
-        font-size:17px;
+        font-size:16px;
         font-weight:500;
         font-family: 'Open Sans', sans-serif;
       }
@@ -42,7 +42,7 @@
     align-items: center;
     a {
       color:rgba(black,.9);
-      font-size:16px;
+      font-size:15px;
       font-weight:600;
       font-family: 'Open Sans', sans-serif;
       text-decoration: none;
