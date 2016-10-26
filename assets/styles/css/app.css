@@ -83,7 +83,7 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 26px 60px 22px 60px;
-  margin-bottom: 15px; }
+  margin-bottom: 12px; }
   #navigation .identity {
     display: flex;
     flex-direction: row; }
