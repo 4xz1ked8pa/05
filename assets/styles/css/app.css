@@ -82,7 +82,7 @@ html {
 #navigation {
   display: flex;
   justify-content: space-between;
-  padding: 26px 60px 22px 60px;
+  padding: 26px 48px 22px 48px;
   margin-bottom: 10px; }
   #navigation .identity {
     display: flex;
@@ -135,7 +135,7 @@ html {
   bottom: 18px;
   left: 0;
   width: 100%;
-  padding: 0 53px 0 53px; }
+  padding: 0 48px; }
   #footer .footer-wrap {
     display: flex;
     justify-content: space-between;
@@ -157,10 +157,10 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0 48px 0 48px; }
+  padding: 0 43px 0 43px; }
   #work .item {
     width: 25%;
-    padding: 0 7px;
+    padding: 0 5px;
     margin-bottom: 27px; }
     #work .item .picture {
       width: 100%; }

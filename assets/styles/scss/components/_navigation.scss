@@ -1,7 +1,7 @@
 #navigation {
   display: flex;
   justify-content: space-between;
-  padding:26px 60px 22px 60px;
+  padding:26px $gutter 22px $gutter;
   margin-bottom:10px;
   .identity {
     display: flex;

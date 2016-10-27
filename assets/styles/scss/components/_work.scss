@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding:0 $gutter 0 $gutter;
+  padding:0 $gutter - $gutter-extra 0 $gutter - $gutter-extra;
   .item {
     width:25%;
-    padding:0 7px;
+    padding:0 $gutter-extra;
     margin-bottom:27px;
     .picture {
       width:100%;
