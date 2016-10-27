@@ -132,21 +132,32 @@ html {
 
 #footer {
   position: absolute;
-  bottom: 13px;
-  left: 10px;
-  padding: 0 55px; }
-  #footer .email {
-    color: black;
-    font-size: 15px;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none; }
+  bottom: 18px;
+  left: 0;
+  width: 100%;
+  padding: 0 53px 0 53px; }
+  #footer .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+    #footer .footer-wrap .email {
+      color: black;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      text-decoration: none; }
+    #footer .footer-wrap .hire {
+      color: black;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      text-decoration: none; }
 
 #work {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0 55px 0 53px; }
+  padding: 0 48px 0 48px; }
   #work .item {
     width: 25%;
     padding: 0 7px;

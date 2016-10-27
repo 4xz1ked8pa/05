@@ -1,12 +1,25 @@
 #footer {
   position: absolute;
-  bottom:13px; left:10px;
-  padding:0 55px;
-  .email {
-    color:black;
-    font-size: 15px;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
+  bottom:18px; left:0;
+  width:100%;
+  padding:0 $gutter + $gutter-extra 0 $gutter + $gutter-extra;
+  .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    .email {
+      color:black;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      text-decoration: none;
+    }
+    .hire {
+      color:black;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      text-decoration: none;
+    }
   }
 }
