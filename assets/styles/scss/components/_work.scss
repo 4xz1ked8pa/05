@@ -47,5 +47,8 @@
     &:nth-child(6) {
       animation: fade-in 2.6s ease-in-out;
     }
+    &.inactive {
+      opacity:.8;
+    }
   }
 }
