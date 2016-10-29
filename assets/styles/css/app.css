@@ -80,6 +80,9 @@ html {
     opacity: .75; }
   100% {
     opacity: 1; } }
+.hide {
+  display: none; }
+
 /* pages */
 #navigation {
   display: flex;
