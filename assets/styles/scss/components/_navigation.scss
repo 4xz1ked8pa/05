@@ -48,10 +48,14 @@
         margin-bottom:6.5px;
       }
       .role {
+        text-align: left;
         color:rgba(black,.8);
         font-size:15.5px;
         font-weight:500;
         font-family: 'Open Sans', sans-serif;
+        @include MQ(S) {
+          text-align: center;
+        }
       }
     }
   }
