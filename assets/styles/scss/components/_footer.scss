@@ -3,6 +3,13 @@
   bottom:18px; left:0;
   width:100%;
   padding:0 $gutter;
+  @include MQ(S) {
+    position: relative;
+    padding-left:25px;
+    padding-right:25px;
+    margin-top:70px;
+    margin-bottom:40px;
+  }
   .footer-wrap {
     display: flex;
     justify-content: space-between;

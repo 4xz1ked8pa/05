@@ -89,13 +89,28 @@ html {
   justify-content: space-between;
   padding: 26px 48px 22px 48px;
   margin-bottom: 10px; }
+  @media only screen and (min-width: 18.75em) and (max-width: 46.5em) {
+    #navigation {
+      flex-direction: column;
+      padding-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto; } }
   #navigation .identity {
     display: flex;
     flex-direction: row; }
+    @media only screen and (min-width: 18.75em) and (max-width: 46.5em) {
+      #navigation .identity {
+        flex-direction: column; } }
     #navigation .identity .picture {
       width: 43px;
       margin-right: 10px;
       border-radius: 2px; }
+      @media only screen and (min-width: 18.75em) and (max-width: 46.5em) {
+        #navigation .identity .picture {
+          width: 80px;
+          margin-bottom: 14px;
+          margin-left: auto;
+          margin-right: auto; } }
       #navigation .identity .picture img {
         width: 100%;
         border-radius: 2px;
@@ -103,7 +118,11 @@ html {
     #navigation .identity .details {
       display: flex;
       justify-content: center;
-      flex-direction: column; }
+      flex-direction: column;
+      text-align: center; }
+      @media only screen and (min-width: 18.75em) and (max-width: 46.5em) {
+        #navigation .identity .details {
+          margin-bottom: 46px; } }
       #navigation .identity .details .name {
         color: #1f1610;
         font-size: 16.5px;
@@ -119,6 +138,9 @@ html {
   #navigation .links {
     display: flex;
     align-items: center; }
+    @media only screen and (min-width: 18.75em) and (max-width: 46.5em) {
+      #navigation .links {
+        justify-content: center; } }
     #navigation .links a {
       color: rgba(0, 0, 0, 0.75);
       font-size: 15px;
@@ -126,6 +148,10 @@ html {
       font-family: 'Open Sans', sans-serif;
       text-decoration: none;
       margin-left: 23px; }
+      @media only screen and (min-width: 18.75em) and (max-width: 46.5em) {
+        #navigation .links a {
+          font-size: 14px;
+          margin: 0 15px; } }
       #navigation .links a:hover {
         color: black; }
       #navigation .links a.active {
@@ -141,6 +167,13 @@ html {
   left: 0;
   width: 100%;
   padding: 0 48px; }
+  @media only screen and (min-width: 18.75em) and (max-width: 46.5em) {
+    #footer {
+      position: relative;
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-top: 70px;
+      margin-bottom: 40px; } }
   #footer .footer-wrap {
     display: flex;
     justify-content: space-between;
@@ -163,12 +196,20 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 0 42px 0 42px; }
+  @media only screen and (min-width: 18.75em) and (max-width: 46.5em) {
+    #work {
+      padding-left: 15px;
+      padding-right: 15px; } }
   #work .item {
     width: 25%;
     padding: 0 6px;
     margin-bottom: 27px; }
+    @media only screen and (min-width: 18.75em) and (max-width: 46.5em) {
+      #work .item {
+        width: 100%; } }
     #work .item .picture {
-      width: 100%; }
+      width: 100%;
+      height: auto; }
       #work .item .picture img {
         width: 100%;
         border-radius: 1px;
